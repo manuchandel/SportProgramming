@@ -1,6 +1,7 @@
 /*
  *Given a read only set of n + 1 integers between 1 and n.
  *find one number that repeats in linear time using less then O(n) space and traversing the stream sequentially O(1) times.
+ *[3 4 1 4 1]==>1 output any one repeating number
  *Time O(nlogn) & space O(sqrt(n))
  */
 
