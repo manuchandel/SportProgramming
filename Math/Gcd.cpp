@@ -2,14 +2,14 @@
 /* find gcd of two numbers */
 int Solution::gcd(int A, int B) {
     if(A==0)
-        return b;
+        return B;
     else if(B==0)
-        return a;
+        return A;
    int y=1;
 	while(y>0){
 		y=A%B;
 		A=B;
-		b=B=y;
+		B=y;
 	}
 	return A;
 }
