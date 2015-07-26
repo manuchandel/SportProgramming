@@ -6,7 +6,7 @@
  *Each student has to be allocated atleast one book.
  */
 
-
+/* B is student count and C is the number we are verifying */
 bool isPossible(vector<int> A,int B,long long c){
     int n=A.size();
     long long temp=c;
@@ -24,6 +24,7 @@ bool isPossible(vector<int> A,int B,long long c){
     }
     return true;
 }
+/* B is the number of students */
 int Solution::books(vector<int> &A, int B) {
     long long l,r,mid,ans=-1;
     if(A.size()<B)
