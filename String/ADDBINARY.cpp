@@ -1,3 +1,6 @@
+/*
+ *Given two binary strings, return their sum (also a binary string)
+ */
 void reverseString(string &A){
     int i=0;
     char c;
