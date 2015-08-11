@@ -1,3 +1,4 @@
+/* Given an absolute path for a file (Unix-style), simplify it. */
 string Solution::simplifyPath(string A) {
     stack<string> mystack;
     int n=A.length();
