@@ -11,14 +11,13 @@ bool isCeil(int a[]){
   return 0;
 }
 int main(){
-  int i,j;
+  int i;
   int d;
   char c;
   int a[10]={0};
   int N,count=0;
   scanf("%d",&N);
   getchar();
-  j=N;
   while(N--){
     i=0;
     c=getchar();
@@ -33,6 +32,5 @@ int main(){
       count++;
     memset(a,0,sizeof(a));
   }
-  if(j>0)
-    printf("%d\n",count );;
+  printf("%d\n",count );
 }
