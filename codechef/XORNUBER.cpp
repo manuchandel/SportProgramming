@@ -1,4 +1,8 @@
+#include <iostream>
 #include <cstdio>
+#include <cstdlib>
+#include <vector>
+#include <string.h>
 #define FOR(a,b) for(int a=0;a<b;a++)
 using namespace std;
 int xorVal(int A){
@@ -12,7 +16,9 @@ int xorVal(int A){
     A=A>>1;
     return A;
   }else return -1;
-} 
+ 
+}
+ 
 int main()
 {
   int T,A;

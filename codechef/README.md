@@ -1,1 +1,1 @@
-Questions practiced by me on codechef in easy section
+Questions solved by me on codechef during various contests and practice sessions
