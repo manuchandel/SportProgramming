@@ -8,7 +8,7 @@
 using namespace std;
 int gcd(int a,int b){
 	int y=1;
-	while(y>0){
+	while(b>0){
 		y=a%b;
 		a=b;
 		b=y;
