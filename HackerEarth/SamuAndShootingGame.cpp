@@ -24,7 +24,6 @@ int main(){
 	double **A=new double *[MAX];
 	for(i=0;i<MAX;i++)
 		A[i]=new double [MAX];
-
 	int T,X,Y,N,W,a,b;
 	double p1,p2;
 	scanf("%d",&T);
