@@ -50,7 +50,6 @@ void update(int tree[],int l,int r,int i,int x){
 		tree[i]=1;
 		return;
 	}
-		
 	int lc=(i<<1)+1;
 	int rc=(i<<1)+2;
 	int mid=(l+r)>>1;
