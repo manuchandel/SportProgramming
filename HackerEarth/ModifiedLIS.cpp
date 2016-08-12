@@ -11,7 +11,7 @@ struct Node{
 };
 Node tree[600000];
 int arr[100000];
-int freq[2000001];
+
 void create(int l,int r,int i){
 	if(l==r){
 		tree[i].l=tree[i].n=0;
