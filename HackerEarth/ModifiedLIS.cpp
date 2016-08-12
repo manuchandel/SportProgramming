@@ -24,7 +24,6 @@ void create(int l,int r,int i){
 	create(mid+1,r,rc);
 	tree[i].l=tree[i].n=0;
 }
-
 void update(int l,int r,int i,int x,Node node){
 
 	if(l==r){
