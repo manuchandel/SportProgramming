@@ -66,6 +66,7 @@ int main(){
         a[i]+=a[i-1];
     }
     scanf("%d",&t);
+    
     while(t--){
         int a1,b;
         scanf("%d%d",&a1,&b);
