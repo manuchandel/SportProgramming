@@ -7,9 +7,6 @@
 #define type double
 using namespace std;
 
-ll K[101];
-ll dp[101];
-ll const inf=(ll)1<<60;
 int main(){
   int T,i,j,t;
   ll A[1024];
