@@ -63,6 +63,7 @@ double solve(Point points[], int n){
   }
   return dp[N-1];
 }
+
 int main(){
   int n;
   ini(n);
