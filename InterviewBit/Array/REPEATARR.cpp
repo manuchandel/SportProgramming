@@ -33,6 +33,7 @@ int repeatingElement(int *A,int n){
 		arr[A[i]/sq]+=1;
 	i=1;
 	while(i<range && arr[i]<=sq) i++;
+	blockno = i;
 	if(arr[0]==sq)	//for zeroth block totoal elements will be sq-1 as 0 is not part of input
 		blockno=0;
 	for(i=0;i<sq;i++)
